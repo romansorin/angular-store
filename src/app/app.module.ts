@@ -13,14 +13,6 @@ import { ShopifyComponent } from "./components/shopify/shopify.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { ProductComponent } from "./components/product/product.component";
 
-const appRoutes: Routes = [
-  { path: "", component: HomeComponent },
-  { path: "magento", component: MagentoComponent },
-  { path: "wordpress", component: WordpressComponent },
-  { path: "shopify", component: ShopifyComponent },
-  { path: "**", component: PageNotFoundComponent }
-];
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +25,7 @@ const appRoutes: Routes = [
     HeaderComponent,
     ProductComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, RouterModule.forRoot(appRoutes)],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent]
 })
