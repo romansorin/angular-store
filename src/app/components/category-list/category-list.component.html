@@ -1,0 +1,6 @@
+<div>
+  <h1>Shop</h1>
+  <nav *ngFor="let category of categories">
+    <a routerLink='{{category.title | lowercase}}' routerLinkActive="active">{{category.title}}</a>
+  </nav>
+</div>
