@@ -5,11 +5,15 @@ sans-serif;
 
 $dark: #3a3434 !important;
 $off-white: #eae3e3 !important;
-$accent: #ff5a2d !important;
+$accent: #EB3B4F !important;
 
 html,
 body {
   font-family: $main-font;
+}
+
+html {
+  overflow-y: scroll;
 }
 
 .container {
@@ -31,5 +35,5 @@ body {
 }
 
 .active {
-    color: $accent;
-  }
+  color: $accent;
+}
