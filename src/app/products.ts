@@ -10,6 +10,16 @@ export const products = [
     price: 49.0
   },
   {
+    id: 1,
+    category: "Business",
+    image:
+      "https://images.unsplash.com/photo-1556742419-3d4480213f85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+    name: "Square Reader",
+    description:
+      "Square Reader lets you accept chip cards, Apple Pay, and Google Pay anywhere. Connect wirelessly, accept payments quickly, and get your funds fast.",
+    price: 49.0
+  },
+  {
     id: 2,
     category: "Electronics",
     image:
@@ -32,6 +42,36 @@ export const products = [
   {
     id: 4,
     category: "Electronics",
+    image:
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+    name: "Amazon Echo (Grey)",
+    description:
+      "The 2nd generation Echo has a 2.5\” downward-firing woofer and 0.6\” tweeter powered by Dolby to deliver crisp vocals and dynamic bass throughout the room.",
+    price: 69.99
+  },
+  {
+    id: 4,
+    category: "Business",
+    image:
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+    name: "Amazon Echo (Grey)",
+    description:
+      "The 2nd generation Echo has a 2.5\” downward-firing woofer and 0.6\” tweeter powered by Dolby to deliver crisp vocals and dynamic bass throughout the room.",
+    price: 69.99
+  },
+  {
+    id: 4,
+    category: "Clothes",
+    image:
+      "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+    name: "Amazon Echo (Grey)",
+    description:
+      "The 2nd generation Echo has a 2.5\” downward-firing woofer and 0.6\” tweeter powered by Dolby to deliver crisp vocals and dynamic bass throughout the room.",
+    price: 69.99
+  },
+  {
+    id: 4,
+    category: "Shoes",
     image:
       "https://images.unsplash.com/photo-1543512214-318c7553f230?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
     name: "Amazon Echo (Grey)",
