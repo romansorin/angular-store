@@ -1,3 +1,5 @@
+@import "src/styles";
+
 .navbar-brand {
   font-weight: 600;
   letter-spacing: 0.2rem;
@@ -9,9 +11,28 @@
 
 .navbar {
   margin-bottom: 155px;
+
   .material-icons {
     top: 1px;
     position: relative;
     line-height: unset;
+
+    @media (max-width: 767.98px) {
+      top: 2px;
+      font-size: 16px;
+    }
   }
+}
+
+#shopping-cart {
+  background-color: $dark;
+  border-color: transparent;
+  transition: .3s ease;
+  opacity: .85;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  ;
 }
