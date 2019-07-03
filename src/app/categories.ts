@@ -1,5 +1,6 @@
 export const categories = [
-  { title: "Magento" },
-  { title: "Wordpress" },
-  { title: "Shopify" }
+  { title: "Clothes" },
+  { title: "Electronics" },
+  { title: "Business" },
+  { title: "Shoes" }
 ];
