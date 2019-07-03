@@ -1,7 +1,7 @@
 <div>
   <h1 class="category-header">Shop</h1>
-  <nav class="nav flex-column category-list">
+  <nav class="nav flex-column category-list d-none d-md-flex">
     <a *ngFor="let category of categories" routerLink='{{category.title | lowercase}}'
-      class="py-2 nav-item text-dark category" routerLinkActive="active">{{category.title}}</a>
+      class="py-2 nav-item has-text-dark category" routerLinkActive="active">{{category.title}}</a>
   </nav>
 </div>

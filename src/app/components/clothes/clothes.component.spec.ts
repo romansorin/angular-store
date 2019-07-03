@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WordpressComponent } from './wordpress.component';
+import { ClothesComponent } from './clothes.component';
 
-describe('WordpressComponent', () => {
-  let component: WordpressComponent;
-  let fixture: ComponentFixture<WordpressComponent>;
+describe('ClothesComponent', () => {
+  let component: ClothesComponent;
+  let fixture: ComponentFixture<ClothesComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ WordpressComponent ]
+      declarations: [ ClothesComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WordpressComponent);
+    fixture = TestBed.createComponent(ClothesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

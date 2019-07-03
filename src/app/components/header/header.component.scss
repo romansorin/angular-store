@@ -9,4 +9,9 @@
 
 .navbar {
   margin-bottom: 155px;
+  .material-icons {
+    top: 1px;
+    position: relative;
+    line-height: unset;
+  }
 }

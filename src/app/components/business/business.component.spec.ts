@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MagentoComponent } from './magento.component';
+import { BusinessComponent } from './business.component';
 
-describe('MagentoComponent', () => {
-  let component: MagentoComponent;
-  let fixture: ComponentFixture<MagentoComponent>;
+describe('BusinessComponent', () => {
+  let component: BusinessComponent;
+  let fixture: ComponentFixture<BusinessComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MagentoComponent ]
+      declarations: [ BusinessComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MagentoComponent);
+    fixture = TestBed.createComponent(BusinessComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

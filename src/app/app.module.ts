@@ -7,11 +7,12 @@ import { AppComponent } from "./app.component";
 import { CategoryListComponent } from "./components/category-list/category-list.component";
 import { PageNotFoundComponent } from "./components/page-not-found/page-not-found.component";
 import { HomeComponent } from "./components/home/home.component";
-import { MagentoComponent } from "./components/magento/magento.component";
-import { WordpressComponent } from "./components/wordpress/wordpress.component";
-import { ShopifyComponent } from "./components/shopify/shopify.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { ProductComponent } from "./components/product/product.component";
+import { BusinessComponent } from './components/business/business.component';
+import { ElectronicsComponent } from './components/electronics/electronics.component';
+import { ShoesComponent } from './components/shoes/shoes.component';
+import { ClothesComponent } from './components/clothes/clothes.component';
 
 @NgModule({
   declarations: [
@@ -19,11 +20,12 @@ import { ProductComponent } from "./components/product/product.component";
     CategoryListComponent,
     PageNotFoundComponent,
     HomeComponent,
-    MagentoComponent,
-    WordpressComponent,
-    ShopifyComponent,
     HeaderComponent,
-    ProductComponent
+    ProductComponent,
+    BusinessComponent,
+    ElectronicsComponent,
+    ShoesComponent,
+    ClothesComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

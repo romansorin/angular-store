@@ -1,7 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-$main-font: 'Montserrat', sans-serif;
+$main-font: 'Montserrat',
+sans-serif;
 
-html, body {
-    font-family: $main-font;
+$dark: #3a3434 !important;
+$off-white: #eae3e3 !important;
+$accent: #ff5a2d !important;
+
+html,
+body {
+  font-family: $main-font;
 }
+
+.container {
+  @media (min-width: 1200px) {
+    max-width: 1386px;
+  }
+}
+
+.has-text-dark {
+  color: $dark;
+}
+
+.has-text-off-white {
+  color: $off-white;
+}
+
+.has-text-accent {
+  color: $accent;
+}
+
+.active {
+    color: $accent;
+  }

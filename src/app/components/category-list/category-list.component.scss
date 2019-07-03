@@ -1,9 +1,17 @@
+@import "src/styles";
+
 .category-header {
   font-size: 3.3rem;
 }
 
 .category {
   font-size: 18px;
+  transition: .2s ease;
+
+  &:hover {
+    color: $accent;
+    text-decoration: none;
+  }
 }
 
 .category-list {

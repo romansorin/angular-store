@@ -1,7 +1,18 @@
 .product-add-to-cart {
   background-color: #3c3837;
   font-size: 16px;
-  padding: 2rem 3.5rem;
+  padding: 15px 45px;
+  border: none;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+  transition: .25s ease-out;
+  position: relative;
+
+  &:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  }
 }
 
 .product-name {
@@ -14,4 +25,20 @@
 
 .product-description {
   font-size: 20px;
+}
+
+.product-img {}
+
+.card {
+  border: none;
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 4px 4px 93px 0px rgba(255, 90, 45, 0.22);
+  max-height: 525px;
+  height: 100%;
+  width: auto;
+}
+
+.product {
+  margin-bottom: 100px;
 }
