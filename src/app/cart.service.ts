@@ -1,7 +1,7 @@
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root"
 })
 export class CartService {
   items = [];
@@ -19,5 +19,5 @@ export class CartService {
     return this.items;
   }
 
-  constructor() { }
+  constructor() {}
 }
