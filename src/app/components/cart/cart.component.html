@@ -1,0 +1,30 @@
+<div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="cart" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content border-0 p-3">
+      <div class="modal-header border-0">
+        <h5 class="modal-title" id="cartTitle">Your Cart</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body border-0">
+        <h2 class="my-5" *ngIf="items.length === 0">No items in your cart. Why don't you add some? :)</h2>
+        <ul class="list-group list-group-flush my-3" *ngIf="items.length > 0">
+          <li class="list-group-item px-0 py-4" *ngFor="let item of items">
+            <img src="{{item.image}}" class="cart-item-preview rounded float-left"
+              alt="Cart item preview for {{item.name}}">
+            <div class="row flex-column pl-4">
+              <h5 class="cart-item-name mt-2 mb-2">
+                {{item.name}}
+              </h5>
+              <h5 class="cart-item-price">${{item.price.toFixed(2)}}</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn rounded-pill disabled" disabled id="checkout-btn">Checkout</button>
+      </div>
+    </div>
+  </div>
+</div>

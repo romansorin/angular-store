@@ -1,0 +1,15 @@
+@import "src/styles";
+
+#checkout-btn {
+    padding: 10px 30px;
+    border-color: $accent;
+    color: $accent;
+    &:hover {
+        color: $off-white;
+        background-color: $accent;
+    }
+}
+.cart-item-preview {
+    max-width: 75px;
+    max-height: 75px;
+}
