@@ -1,16 +1,14 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <div class="container py-3">
-
     <a routerLink="/" class="navbar-brand has-text-dark">ACK</a>
-
-
     <span class="navbar-text ml-auto mr-md-5 mr-3 has-text-dark">
       Cart ({{getItems()}})
     </span>
-    <button id="shopping-cart" [ngClass]="{'has-bg-accent': getItems() > 0}" class="btn btn-dark rounded-circle ml-1 my-2 my-sm-0"><i
+    <button type="button" data-toggle="modal" data-target="#cart" id="shopping-cart"
+      [ngClass]="{'has-bg-accent': getItems() > 0}" class="btn btn-dark rounded-circle ml-1 my-2 my-sm-0"><i
         class="material-icons has-text-white">
         shopping_cart
       </i></button>
-
+    <app-cart></app-cart>
   </div>
 </nav>
